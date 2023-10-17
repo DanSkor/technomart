@@ -11,6 +11,7 @@
 
 <body>
   <div class="main-container">
+
     <header class="top-header">
       <div class="top-header-container">
         <h1 class="top-header__title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
@@ -20,55 +21,62 @@
         </address>
       </div>
     </header>
-    <header class="main-header">
-      <div class="main-header-container__top">
-        <a href="#" class="main-header__logo-link">
-          <img class="main-header__logo" alt="Логотип интернет-магазина Техномарт." src="./images/logo/logo-main.svg"
+
+    <header class="middle-header">
+      <div class="middle-header-container">
+        <a class="middle-header__logo-link" href="#">
+          <img class="middle-header__logo" alt="Логотип интернет-магазина Техномарт." src="./images/logo/logo-main.svg"
             width="220" height="50">
         </a>
-        <form class="main-header__search-form" action="https://echo.htmlacademy.ru/" method="get">
+        <form class="middle-header__search-form" action="https://echo.htmlacademy.ru/" method="get">
           <label class="visually-hidden" for="search-site">Поиск по сайту.</label>
-          <input class="main-header__search-input" type="text" id="search-site" name="search-site" placeholder="Поиск:">
+          <input class="middle-header__search-input" type="text" id="search-site" name="search-site"
+            placeholder="Поиск:" autocomplete="off">
         </form>
-        <a class="main-header__login-button" href="#">Войти</a>
+        <a class="middle-header__login-button" href="#">Войти</a>
       </div>
-      <div class="main-header-container__bot">
-        <nav class="main-header__nav">
-          <ul class="main-header__nav-list">
-            <li class="main-header__nav-item">
-              <a class="main-header__nav-link" href="#">Главная</a>
+    </header>
+
+    <header class="bottom-header">
+      <div class="bottom-header-container">
+        <nav class="bottom-header__nav">
+          <ul class="bottom-header__nav-list">
+            <li class="bottom-header__nav-item">
+              <a class="bottom-header__nav-link" href="#">Главная</a>
             </li>
-            <li class="main-header__nav-item">
-              <a class="main-header__nav-link" href="#">Компания</a>
+            <li class="bottom-header__nav-item">
+              <a class="bottom-header__nav-link" href="#">Компания</a>
             </li>
-            <li class="main-header__nav-item">
-              <a class="main-header__nav-link" href="#">Каталог</a>
+            <li class="bottom-header__nav-item">
+              <a class="bottom-header__nav-link" href="#">Каталог</a>
             </li>
-            <li class="main-header__nav-item">
-              <a class="main-header__nav-link" href="#">Новости</a>
+            <li class="bottom-header__nav-item">
+              <a class="bottom-header__nav-link" href="#">Новости</a>
             </li>
-            <li class="main-header__nav-item">
-              <a class="main-header__nav-link" href="#">Спецпредложения</a>
+            <li class="bottom-header__nav-item">
+              <a class="bottom-header__nav-link" href="#">Спецпредложения</a>
             </li>
-            <li class="main-header__nav-item">
-              <a class="main-header__nav-link" href="#">Доставка</a>
+            <li class="bottom-header__nav-item">
+              <a class="bottom-header__nav-link" href="#">Доставка</a>
             </li>
-            <li class="main-header__nav-item">
-              <a class="main-header__nav-link" href="#">Контакты</a>
+            <li class="bottom-header__nav-item">
+              <a class="bottom-header__nav-link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="main-header__menu-list">
-          <li class="main-header__menu-item">
-            <a class="main-header__menu-link menu-favorites visually-hidden" href="#">Избранное.</a>
+        <ul class="bottom-header__menu-list">
+          <li class="bottom-header__menu-item">
+            <a class="bottom-header__menu-link menu-favorites" href="#">
+              <span class="visually-hidden">Избранное.</span>
+            </a>
           </li>
-          <li class="main-header__menu-item">
-            <a class="main-header__menu-link menu-basket visually-hidden" href="#">Корзина.</a>
-          </li>
-          <li class="main-header__menu-item">
-            <a class="main-header__menu-link menu-order" href="#">Оформить заказ</a>
+          <li class="bottom-header__menu-item">
+            <a class="bottom-header__menu-link menu-basket" href="#">
+              <span class="visually-hidden">Корзина.</span>
+            </a>
           </li>
         </ul>
+        <a class="button menu-order" href="#">Оформить заказ</a>
       </div>
     </header>
 
@@ -395,7 +403,7 @@
           <label class="subscribe-label" for="email">Получайте лучшие предложения</label>
           <input class="subscribe-input" type="email" id="email" name="email" placeholder="email@example.com" required>
           <button class="subscribe-button" type="submit">
-          <span class="visually-hidden">Кнопка отправки электронной почты.</span>
+            <span class="visually-hidden">Кнопка отправки электронной почты.</span>
           </button>
         </form>
       </div>
@@ -403,7 +411,8 @@
     <footer class="copyright-footer">
       <div class="copyright-footer-container">
         <p class="copyright-text">© 2010–2019 Компания «Техномарт» Все права защищены</p>
-        <p class="copyright-developed">Разработано — <a class="copyright-link" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+        <p class="copyright-developed">Разработано — <a class="copyright-link"
+            href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
       </div>
     </footer>
   </div>
